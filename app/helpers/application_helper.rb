@@ -1,6 +1,6 @@
 module ApplicationHelper
   
-  #define logo
+  #define logo which is used in _header.html.erb
   def logo
     logo = image_tag("logo.png", :alt => "Sample App", :class => "round")
   end
